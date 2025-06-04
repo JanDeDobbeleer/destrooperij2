@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title data-i18n="title">DeSTrooperij</title>
+</head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <!-- Merknaam? Indien tekst, voeg data-i18n toe -->
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#home" data-i18n="home" data-after="Home">Home</a></li>
+              <li><a href="#missions" data-i18n="mission" data-after="mission">Missie</a></li>
+              <li><a href="#events" data-i18n="events" data-after="events">Events</a></li>
+              <li><a href="#about" data-i18n="about" data-after="About">Over ons</a></li>
+              <li><a href="#contact" data-i18n="contact" data-after="Contact">Tickets/Contact</a></li>
+              <li class="lang-switch">
+                <button class="lang-btn" data-lang="nl">NL</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+  
+    <!-- home Section  -->
+    <section id="home">
+      <div class="home container">
+        <div>
+          <h1>Welcome <span></span></h1>
+        <h1>at <span></span></h1>
+        <h1>De STrooperij <span></span></h1>
+        </div>
+      </div>
+    </section>
+    <!-- End home Section  -->
+  
+    <!-- mission Section -->
+    <section id="missions">
+      <div class="missions container">
+        <div class="mission-top">
+          <h1 class="section-title" data-i18n="missionTitle">Missie</h1>
+          <p data-i18n="missionIntro">De STrooperij is een vriendengroep met elk hun eigen talenten. We organiseren unieke evenementen in onze geboortestad DieST, met als missie: mensen samenbrengen rond urban sports en cultuur. Sinds de eerste edities van Summer Jam (2002-2007) in het Warandepark, is de passie voor street culture altijd blijven leven. In 2018 bliezen we het concept nieuw leven in, en met groot succes, want in 2023 kregen we de Publieksprijs van de Cultuurraad van DieST. Het draait om creativiteit, sport, muziek, en verbinding – voor jong en oud.</p>
+        </div>
+        <div class="mission-download-icon">
+          <a href="img/De STrooperij dossier 2025.docx" download title="De STrooperij dossier 2025">
+            <img src="img/press__document__page__logo.png" alt="Download">
+            <span style="font-size: 0.9rem;">De STrooperij 2025 - Word.doc</span>
+          </a>
+        </div>
+        <div class="mission-bottom">
+          <div class="mission-item">
+            <div class="icon"><img src="img/sport.jpg.jpeg" /></div> 
+            <h2 data-i18n="sportTitle">Sport</h2>
+            <p data-i18n="sportText">Van skatecontest en 3x3 basketbal tot freerunning en street workouts – sport is een vaste waarde bij elk event van De STrooperij. Lokale verenigingen zoals de Diestse Sharks en skaters nemen het voortouw in de organisatie. Bewegen, samenwerken en genieten.</p>
+          </div>
+          <div class="mission-item">
+            <div class="icon"><img src="img/art.jpg.jpeg" /></div>
+            <h2 data-i18n="artTitle">Kunst</h2>
+            <p data-i18n="artText">Graffiti-jams en live painting vormen een artistieke rode draad. Lokale kunstenaars krijgen een platform om hun creativiteit te tonen en jongeren worden aangemoedigd om te experimenteren. De STrooperij inspireert met kleur en expressie.</p>
+          </div>
+          <div class="mission-item">
+            <div class="icon"><img src="img/music.jpg.jpeg" /></div>
+            <h2 data-i18n="musicTitle">Muziek</h2>
+            <p data-i18n="musicText">Beats, livemuziek en DJ-sets brengen elk event tot leven. Tijdens Silent Disco en andere evenementen krijgen ook jonge, opkomende talenten een podium. De STrooperij gelooft in de kracht van muziek om mensen te verbinden.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End mission Section -->
+  
+    <!-- events Section -->
+    <section id="events">
+      <div class="events container">
+        <div class="events-header">
+          <h1 class="section-title" data-i18n="eventsTitle">EVENTS</h1>
+        </div>
+        <div class="all-events">
+  
+          <div class="event-item">
+            <div class="event-info">
+              <h1 data-i18n="event1Title">Total Loods</h1>
+              <h2 data-i18n="event1Date">april 2025</h2>
+              <p data-i18n="event1Text">Op de site van de Citadel organiseert De STrooperij opnieuw Total Loods: een dag vol workshops en activiteiten, gevolgd door een avond met een silent disco (drie genres). Jonge DJ’s krijgen een kans op het podium. De toegang is gratis – enkel de hoofdtelefoon betaal je zelf.</p>
+            </div>
+            <div class="event-img">
+              <img src="./img/Event1.jpg" alt="img" />
+              <img 
+                class="video-icon" 
+                src="./img/movie-clip-click.png" 
+                alt="vertical video" 
+                onclick="openVideoModal('./img/Video TL 1.mp4')" 
+              />
+            </div>
+          </div>
+  
+          <div class="event-item">
+            <div class="event-info">
+              <h1 data-i18n="event2Title">Summer Jam</h1>
+              <h2 data-i18n="event2Date">augustus 2025</h2>
+              <p data-i18n="event2Text">Terug in het Warandepark – de thuisbasis – brengt Summer Jam opnieuw een dag vol urban sports en muziek. Verwacht een skatecontest, graffiti-jam, 3on3 basketbal, breakdance, freerunning en kinderanimatie. ’s Avonds sluiten we af met een spectaculaire liveshow in het amfitheater.</p>
+            </div>
+            <div class="event-img">
+              <img src="./img/Event2.jpg" alt="img" /><img 
+                class="video-icon" 
+                src="./img/movie-clip-click.png" 
+                alt="video icon" 
+                onclick="openVideoModal('./img/Video SJ 2.mp4')" 
+              />
+            </div>
+          </div>
+  
+          <div class="event-item">
+            <div class="event-info">
+              <h1 data-i18n="event3Title">Barbecrew</h1>
+              <h2 data-i18n="event3Date">september 2025</h2>
+              <p data-i18n="event3Text">Een jaarlijks dankfeest voor alle vrijwilligers en sponsors van De STrooperij. Want zonder hen zou dit alles niet mogelijk zijn. Barbecrew draait om gezelligheid, dankbaarheid, en verbondenheid.</p>
+            </div>
+            <div class="event-img">
+              <img src="./img/Event3.jpg" alt="img" />
+            </div>
+          </div>
+  
+          <div class="event-item">
+            <div class="event-info">
+              <h1 data-i18n="event4Title">Meer dan events</h1>
+              <h2 data-i18n="event4Date">Doorlopend en overal</h2>
+              <p data-i18n="event4Text">De STrooperij denkt verder dan events. Zo helpen we mee aan de renovatie van de Citadel en ondersteunen we creatieve jongeren via TEXTUUR – een loods aan de Nijverheidslaan die dienstdoet als creatieve uitvalsbasis. Hier kunnen jongeren muziek maken, creëren en experimenteren.</p>
+            </div>
+            <div class="event-img">
+              <img src="./img/Event4.jpg" alt="img" />
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </section>
+    <!-- End events Section -->
+  
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="./img/HOTBOYS.jpg" alt="img" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title" data-i18n="aboutTitle">Over ons</h1>
+          <h2 data-i18n="aboutSubtitle">De CREW</h2>
+          <p data-i18n="aboutText">De STrooperij begon als een vriendengroep met een passie voor hun stad DieST. Doorheen de jaren groeide het collectief uit tot een vzw die cultuur en sport toegankelijk maakt voor iedereen. Dankzij de steun van vrijwilligers, verenigingen, sponsors en de stad Diest blijft hun impact groeien. Het draait om kansen geven, samenwerken, en bouwen aan een warme, creatieve community.</p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+  
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title" data-i18n="contactTitle">Tickets/Contact<span></span></h1>
+        </div>
+          <div class= "contact-logo-DST">
+            <img src="img/LOGO-DST-klein.jpg" alt="Logo De STrooperij" /> 
+          </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon"><img src="img/ticket.png" /></div>
+            <div class="contact-info">
+              <h1 data-i18n="ticketTitle">Tickets</h1>
+              <h2><a href="https://total-loods-silent-disco.eventsquare.store/nl/qw0tvhe3b79d/p8zootud6gak" target="_blank" data-i18n="ticketText">Koop hier</a></h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="img/email.png" /></div>
+            <div class="contact-info">
+              <h1 data-i18n="emailTitle">Email</h1>
+              <h2><a href="mailto:DeStrooperij@hotmail.com" data-i18n="emailText">DeStrooperij@hotmail.com</a></h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon"><img src="img/holding-hands.png" /></div>
+            <div class="contact-info">
+              <h1 data-i18n="volunteerTitle">Vrijwilligers</h1>
+              <h2><a href="mailto:DeStrooperij@gmail.com?subject=Volunteer Inquiry" data-i18n="volunteerText">Wil je meehelpen op ons volgende event?</a></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>D</span>e <span>ST</span>rooperij</h1>
+        </div>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://www.facebook.com/destrooperij" target="_blank">
+              <img src="img/facebook.png" alt="Facebook" />
+            </a>
+          </div>
+          <div class="social-item">
+            <a href="https://www.instagram.com/destrooperij/" target="_blank">
+              <img src="img/instagram-logo.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+        <p data-i18n="footerText">Gemaakt door Tom Lamers – 2025</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
+    <div id="videoModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:1000;">
+  <video id="eventVideo" controls style="max-width: 90vw; max-height: 80vh;">
+    <source id="videoSource" src="" type="video/mp4" />
+  </video>
+  <button onclick="closeVideoModal()" style="position:absolute; top:20px; right:20px; font-size: 1.5rem; background:none; border:none; color:#fff; cursor:pointer;">✕</button>
+</div>
+  </body>
+</html>
