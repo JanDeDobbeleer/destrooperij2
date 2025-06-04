@@ -528,8 +528,8 @@ li.lang-switch .lang-btn {
 	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
-	padding: 30px;
-	margin: 30px;
+	padding: 20px;
+	margin: 20px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -555,11 +555,6 @@ li.lang-switch .lang-btn {
 	line-height: 2rem;
 	font-weight: 500;
 }
-.contact-logo-DST img {
-  max-width: 120px;
-  height: auto;
-  margin: 0 auto;
-}
 /*End contact Section */
 
 /* Footer */
@@ -579,6 +574,11 @@ li.lang-switch .lang-btn {
 	letter-spacing: 0.1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+.footer-logo-DST img {
+  max-width: 80px;
+  height: auto;
+  margin: 0 auto;
 }
 #footer .social-icon {
 	display: flex;
