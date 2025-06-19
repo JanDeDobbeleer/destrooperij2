@@ -457,7 +457,7 @@ li.lang-switch .lang-btn {
   max-height: 90vh;
   width: auto;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(37, 38, 95, 0.938);
+  box-shadow: 0 0 20px rgba(37, 38, 95);
 }
 /* End events section */
 
@@ -495,7 +495,7 @@ li.lang-switch .lang-btn {
 	height: 100%;
 	width: 100%;
 	position: relative;
-	border: 10px solid white;
+	outline-color: 0 0 rgba(245, 245, 220, 0.267);
 }
 #about .col-left .about-img::after {
 	content: '';
@@ -504,11 +504,12 @@ li.lang-switch .lang-btn {
 	top: 19px;
 	height: 98%;
 	width: 98%;
-	border: 7px solid rgb(37,38,95);
+	border: 8px solid rgb(37,38,95);
 	z-index: -1;
 	animation: ripple 4s ease-in-out infinite;
     opacity: 0.3;
     transform-origin: center;
+	border: none;
 }
 /* End About Section */
 
@@ -578,7 +579,7 @@ li.lang-switch .lang-btn {
 .footer-logo-DST img {
   max-width: 80px;
   height: auto;
-  margin: 0 auto;
+  margin-top: 5px;
 }
 #footer .social-icon {
 	display: flex;
