@@ -430,6 +430,30 @@ li.lang-switch .lang-btn {
 #events .event-item:hover .event-img img {
 	transform: scale(1.1);
 }
+.event-info p[data-i18n="event2register3x3"] {
+  display: inline-block;
+  background-color: #003366;  /* dark blue */
+  color: white;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-info p[data-i18n="event2register3x3"] a {
+  color: white;
+  text-decoration: none;
+}
+
+.event-info p[data-i18n="event2register3x3"]:hover {
+  background-color: #00509e;  /* lighter blue on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+}
 	/* Video icon styling */
 	.video-icon {
   		position: absolute;
