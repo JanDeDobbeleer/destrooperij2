@@ -431,16 +431,17 @@ li.lang-switch .lang-btn {
 	transform: scale(1.1);
 }
 .event-info p[data-i18n="event2register3x3"] {
-  display: inline-block;
-  background-color: #003366;  /* dark blue */
+  display: flex;
+  background-color: #00172e;  /* dark blue */
   color: white;
   padding: 6px 12px;
-  border-radius: 12px;
+  border-radius: 6px;
   font-weight: bold;
-  font-size: 0.9rem;
-  margin-top: 10px;
+  font-size: 1.4rem;
+  margin-top: 25px;
   text-decoration: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  animation: pulseShadow 3.5s infinite ease-in-out;
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
@@ -451,9 +452,22 @@ li.lang-switch .lang-btn {
 }
 
 .event-info p[data-i18n="event2register3x3"]:hover {
-  background-color: #00509e;  /* lighter blue on hover */
+  background-color: #022e5a;  /* lighter blue on hover */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
 }
+@keyframes pulseShadow {
+  0% {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0 6px 20px rgba(246, 247, 248, 0.6);
+  }
+  100% {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+}
+
 	/* Video icon styling */
 	.video-icon {
   		position: absolute;
