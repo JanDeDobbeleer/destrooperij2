@@ -304,7 +304,7 @@ li.lang-switch .lang-btn {
   align-items: center; 
   gap: 10px; 
   color: rgb(37,38,95);
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
 #missions .mission-top {
 	max-width: 500px;
