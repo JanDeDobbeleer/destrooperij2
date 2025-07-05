@@ -91,7 +91,7 @@ const translations = {
         emailText: "DeStrooperij@gmail.com",
         volunteerTitle: "Vrijwilligers",
         volunteerText: "Wil je meehelpen op ons volgende event?",
-        footerText: "Built by Tom Lamers – 2025"
+        footerText: "Gemaakt door Tom Lamers – 2025"
     },
     en: {
         home: "Home",
