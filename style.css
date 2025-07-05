@@ -293,8 +293,9 @@ li.lang-switch .lang-btn {
 	padding: 100px 0;
 }
 #missions .mission-download-icon img {
-	width: 40px;
-	height: 40px;
+	margin-top: 20px;
+	width: 35px;
+	height: 35px;
 	object-fit: contain;
 	cursor: pointer;
 }
